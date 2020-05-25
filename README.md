@@ -1,4 +1,4 @@
-# HTML Lists
+HTML Lists
 
 ## Problem Statement
 
@@ -70,7 +70,7 @@ categories and one or more items in _each_:
     <ul>
       <li>Ham and Cheese</li>
       <li>Grilled Cheese</li>
-    </ul>
+      
   </li>
   <li>Snacks
     <ul>
@@ -139,8 +139,18 @@ might look like:
 
 ```HTML
 <h3>Top 5 Favorite Foods</h3>
-<ol>
-  <li>Grilled Cheese</li>
+<ul>
+  <li>Grilled Cheese</li><ul>
+      <li>2 slices of bread</li>
+      <li>4 slices of cheese</li>
+      <ul>
+      <li>cheddar</li>
+      <li>mozzarella</li>
+      <li>pepper jack</li>
+    </ul>
+      <li>1 tbsp of butter</li>
+    </ul>
+  
   <li>Sushi</li>
   <li>Cheese and crackers</li>
   <li>Cheese soup</li>
@@ -185,6 +195,13 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`
+<ol>
+<li>Spread butter on bread and frying pan</li>
+<li>Place bread in frying pan and fry</li>
+<li>Add cheese on top of bread</li>
+<li>Cover with second slice of bread</li>
+<li>Turn over and fry for 2 minutes`</li>
+</ol>
 
 ***
 Once you've written an ordered list that displays these 5 steps correctly, run `learn` 
